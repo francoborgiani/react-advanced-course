@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px;
+  
+  .nav-item {
+    margin-bottom: 10px;
+    
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        color: #a09d9d;
+        transition: .3s ease-in-out;
+      }
+      &.active {
+        color: #a09d9d;
+      }
+    }
+  }
+}
